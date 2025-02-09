@@ -1,0 +1,261 @@
+.teacher-dashboard {
+  padding: 2rem;
+}
+
+.schedule-section, .appointments-section {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+.approve-btn, .cancel-btn {
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.approve-btn {
+  background: #2ecc71;
+  color: white;
+}
+
+.cancel-btn {
+  background: #e74c3c;
+  color: white;
+}
+
+.schedule-form {
+  margin-top: 1rem;
+}
+
+.error-message, .success-message {
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.error-message {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.success-message {
+  background: #dcfce7;
+  color: #16a34a;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  background: #f8f9fa;
+  color: #2c3e50;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.approve-btn, .reject-btn, .complete-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.approve-btn:hover {
+  background: #27ae60;
+}
+
+.reject-btn:hover {
+  background: #c0392b;
+}
+
+.complete-btn:hover {
+  background: #2980b9;
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.status-pending {
+  color: #f1c40f;
+  font-weight: 600;
+}
+
+.status-approved {
+  color: #2ecc71;
+  font-weight: 600;
+}
+
+.status-completed {
+  color: #3498db;
+  font-weight: 600;
+}
+
+.status-cancelled {
+  color: #e74c3c;
+  font-weight: 600;
+}
+
+.profile-section {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+.rating-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.rating-info p {
+  margin: 0.5rem 0;
+}
+
+.rating {
+  color: #f1c40f;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.rating-count {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
+
+.stars {
+  display: inline-flex;
+  gap: 2px;
+  margin-right: 0.5rem;
+}
+
+.star {
+  color: #ddd;
+  font-size: 1.2rem;
+}
+
+.star.filled {
+  color: #f1c40f;
+}
+
+.ratings-section {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-top: 2rem;
+}
+
+.ratings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.rating-card {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  transition: transform 0.2s ease;
+}
+
+.rating-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.rating-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.rating-date {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.student-name {
+  font-weight: 500;
+  margin: 0.5rem 0;
+  color: #2c3e50;
+}
+
+.feedback {
+  color: #666;
+  line-height: 1.5;
+  margin-top: 0.5rem;
+}
+
+.rated-badge {
+  background: #2ecc71;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  display: inline-block;
+}
+
+.completed-badge {
+  background: #3498db;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  display: inline-block;
+}
+
+.complete-btn {
+  background: #3498db;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.complete-btn:hover {
+  background: #2980b9;
+}
+
+.complete-btn:disabled {
+  background: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.status-completed {
+  color: #3498db;
+  font-weight: bold;
+} 
